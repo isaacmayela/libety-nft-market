@@ -4,7 +4,7 @@ import HeroDescription from "../hero-description/hero-description";
 
 export default function HeroSection() {
     return (
-      <div className="bg-[#7b5df9] py-[1em] px-[7em]">
+      <div className="bg-[url('/assets/images/banner-bg.jpg')] py-[2em] px-[7em]">
         <Navigations/>
         <HeroDescription/>
       </div>
